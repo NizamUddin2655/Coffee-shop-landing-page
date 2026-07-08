@@ -9,11 +9,19 @@ body{
 }
 
 .nav-container{
-    background-color: #2E2622;
+    width: 1210px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 26px 115px;
+    padding: 26px 0px;
+}
+.container{
+    background-color: #2E2622;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-item ul{
@@ -92,3 +100,24 @@ body{
     font-weight: 700;
     line-height: 24px;
 }
+
+/* website main part style start from here*/
+
+.story-container{
+    background-color: #FBF6EF;
+    padding: 80px 115px
+}
+
+.our-story{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.story-image{
+    width: 580px;
+    height: 386px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
