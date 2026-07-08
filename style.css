@@ -197,3 +197,69 @@ body{
     text-align: center;
     margin-bottom: 50px;
 }
+
+/* Why us style start from here */
+
+
+.why-us-container{
+    background-color: #FBF6EF;
+    padding: 80px 0px;
+}
+
+.child-why-us-container{
+    display: flex;
+    justify-content: center;
+}
+
+.why-us-card-box{
+    width: 1210px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.why-us-images, .drinks{
+    margin-bottom: 30px;
+}
+
+
+/* Opening Hourse stytle from here */
+
+.opening-container{
+    background-color: #FBF6EF;
+    padding-bottom: 80px;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+
+.table-body-container{
+    width: 700px;
+}
+
+th, td{
+    border: 1px solid #2E2622;
+    padding: 15px 20px;
+}
+
+th{
+    background-color: #2E2622;
+    text-align: left;
+    color: #E9B44C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+td{
+    font-size: 16px;
+    line-height: 25px;
+    color: #2E2622;
+}
+
+table{
+    border-collapse: collapse;
+}
