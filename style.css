@@ -105,13 +105,16 @@ body{
 
 .story-container{
     background-color: #FBF6EF;
-    padding: 80px 115px
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
 }
 
 .our-story{
     display: flex;
     align-items: center;
     gap: 50px;
+    width: 1210px;
 }
 
 .story-image{
@@ -121,3 +124,76 @@ body{
     object-fit: cover;
 }
 
+.story-details, h1, p{
+    margin-bottom: 30px;
+}
+
+.story-title{
+    color: #2E2622;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.paragraph{
+    font-size: 16px;
+    line-height: 25px;
+    color: #5A4F47;
+}
+
+/* Popular picks section style start here */
+
+.popular-container{
+    background-color: #F1E7D8;
+    padding: 80px 0px;
+}
+
+.first-card{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0, 0.6);
+}
+
+.popular-card-box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.first-card, .card-title, .card-para{
+    margin-bottom: 15px;
+}
+
+.card-title{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #2E2622;
+}
+
+.card-para{
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2622;
+}
+
+.card-price{
+    font-size: 18px;
+    font-weight: 700;
+    color: #E9B44C;
+}
+
+.our-menu{
+    text-align: center;
+    color: #E9B44C;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#picks{
+    text-align: center;
+    margin-bottom: 50px;
+}
