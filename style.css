@@ -263,3 +263,75 @@ td{
 table{
     border-collapse: collapse;
 }
+
+/* Background postition images section */
+
+.image-container{
+    background-color: #FBF6EF;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-image{
+    width: 1210px;
+    height: 380px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.first-div{
+    padding: 12px 20px;
+    background-color: white;
+    border-radius: 15px;
+    width: 265px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+.second-div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    padding: 22px;
+    right: 25px;
+    top: 25px;
+    position: absolute;
+}
+
+.child-image-container{
+    position: relative;
+}
+
+.open{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #2E2622;
+    margin-bottom: 5px;
+}
+
+#open{
+    color: #7A6F63;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.always{
+    color: #2E2622;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.craving{
+    color: #5A4F47;
+    font-size: 13px;
+    line-height: 20px;
+}
+
